@@ -1,0 +1,48 @@
+body{
+    background-color: #161c29;
+    color: white;
+    font-family: 'Roboto', monospace;
+    font-size: 5rem;
+    line-height: 1.5;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#blob {
+    background-color:white;
+    background: linear-gradient(to right,aquamarine,rgb(84, 0, 253));
+    height: 100px;
+    width: 100px;
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    animation: rotate 20s infinite;
+
+}
+
+@keyframes rotate{
+    from{
+        rotate: 0deg;
+    }
+    50%{
+        scale: 1 1.5;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+#blur {
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+    backdrop-filter: blur(100px);
+}
+h1{
+    top: 30%;
+    position: absolute;
+    z-index: 100;
+}
