@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -15,28 +15,29 @@
     <link rel="stylesheet" href="css/spacing.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/rtl.css" />
   </head>
 
   <body>
     <!--================================
         PRELOADER START
     =================================-->
-    <div class="preloader">
+    <!-- <div class="preloader">
       <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
         <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
       </svg>
       <h5 class="preloader-text">Loading</h5>
-    </div>
+    </div> -->
     <!--================================
         PRELOADER END
     =================================-->
     <!--================================
         MENU START
     =================================-->
-    <nav class="navbar navbar-expand-lg main_menu">
+    <nav dir="rtl" class="navbar navbar-expand-lg main_menu">
       <div class="container main_menu_bg">
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" alt="ZYAN" class="img-fluid w-100" />
+          <img src="images/logo-rtl.png" alt="ZYAN" class="img-fluid w-100" />
         </a>
         <button
           class="navbar-toggler"
@@ -54,45 +55,43 @@
           <ul class="navbar-nav m-auto">
             <li class="nav-item">
               <a class="nav-link text_hover_animaiton active" href="#"
-                >Home <i class="far fa-angle-down"></i
+                >بيت <i class="far fa-angle-down"></i
               ></a>
               <ul class="droap_menu">
-                <li><a href="index.html">Home 1</a></li>
-                <li><a href="index_2.html">Home 2</a></li>
-                <li><a href="index_3.html">Home 3</a></li>
-                <li><a href="index_4.html">Home 4</a></li>
-                <li><a href="index_rtl.html">Home RTL</a></li>
+                <li><a href="index.html">الصفحة الرئيسية 1</a></li>
+                <li><a href="index_2.html">الصفحة الرئيسية 2</a></li>
+                <li><a href="index_3.html">الصفحة الرئيسية 3</a></li>
+                <li><a href="index_4.html">الصفحة الرئيسية 4</a></li>
+                <li><a href="index_rtl.html">الصفحة الرئيسية رتل</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#about"
-                >about us</a
-              >
+              <a class="nav-link text_hover_animaiton" href="#">معلومات عنا</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text_hover_animaiton" href="#service"
-                >services
+                >خدمات
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text_hover_animaiton" href="#projects"
-                >Projects
+                >المشاريع
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text_hover_animaiton" href="blog_list.html"
-                >blog <i class="far fa-angle-down"></i
+                >مدونة <i class="far fa-angle-down"></i
               ></a>
               <ul class="droap_menu">
                 <li>
-                  <a href="blog_list.html">Blog List</a>
+                  <a href="blog_list.html">قائمة المدونات</a>
                 </li>
-                <li><a href="blog_details.html">Blog Details</a></li>
+                <li><a href="blog_details.html">تفاصيل المدونة</a></li>
               </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link text_hover_animaiton" href="contact.html"
-                >contact
+                >اتصال
               </a>
             </li>
           </ul>
@@ -109,7 +108,12 @@
       </div>
     </nav>
 
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+    <div
+      dir="rtl"
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+    >
       <div class="offcanvas-header">
         <a class="offcanvas-logo" href="index_2.html">
           <img src="images/logo2.png" alt="ZAYAN" class="img-fluid w-100" />
@@ -126,15 +130,15 @@
       <div class="offcanvas-body">
         <div class="tf__design_form offcanvas_form">
           <div class="offcanvas-content-box">
-            <h4 class="offcanvas_title">About us</h4>
+            <h4 class="offcanvas_title">معلومات عنا</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-              tempor incididunt ut labore et magna aliqua. Ut enim ad minim
-              veniam laboris.
+              لوريم إيبسوم دولور سيت أميت، كونسيكتور إيليت، سد دو إيوسمود وقوع
+              حادث مؤقت في العمل وماجنا بعض. احصل على الحد الأدنى فينيام
+              لابوريس.
             </p>
           </div>
           <div class="offcanvas_contact_form">
-            <h4 class="offcanvas_title">Get In Touch</h4>
+            <h4 class="offcanvas_title">ابقى على تواصل</h4>
             <form action="#">
               <input
                 type="text"
@@ -143,7 +147,7 @@
               />
               <input type="email" placeholder="Your Email" />
               <textarea rows="4" placeholder="Message"></textarea>
-              <button type="submit" class="common_btn">submit now</button>
+              <button type="submit" class="common_btn">يقدم الآن</button>
             </form>
           </div>
         </div>
@@ -165,35 +169,34 @@
           <div class="col-xl-6 col-lg-8">
             <div class="tf__banner_text">
               <h1>
-                Hi, I'm ZYAN! Creative
+                مرحبًا، أنا زيان! مبدع
                 <span class="cd-headline rotate-1">
                   <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
                   <span class="cd-words-wrapper">
-                    <b class="is-visible">Designer</b>
-                    <b>Coder</b>
-                    <b>Player</b>
+                    <b class="is-visible">مصمم</b>
+                    <b>المبرمج</b>
+                    <b>لاعب</b>
                   </span>
                 </span>
               </h1>
               <p>
-                I'm a passionate UI/UX designer with a mission to create
-                delightful and intuitive digital experiences. With a strong
-                foundation in design principles and a keen eye for detail, I
-                specialize in translating complex ideas into user-friendly
-                interfaces that captivate and engage.
+                أنا مصمم UI/UX شغوف بمهمة الإبداع تجارب رقمية مبهجة وبديهية. مع
+                قوي أساس في مبادئ التصميم وعين حريصة على التفاصيل، I متخصصون في
+                ترجمة الأفكار المعقدة إلى سهلة الاستخدام واجهات تأسر وتتفاعل.
               </p>
               <ul>
                 <li>
                   <a class="common_btn" href="#"
-                    >Download Cv <i class="fa-solid fa-arrow-down-to-line"></i
+                    >تحميل السيرة الذاتية
+                    <i class="fa-solid fa-arrow-down-to-line"></i
                   ></a>
                 </li>
                 <li>
                   <a
                     class="banner_video_btn play_btn"
                     href="https://www.youtube.com/watch?v=B-ytMSuwbf8"
-                    ><i class="fa-sharp fa-solid fa-circle-play"></i> Watch the
-                    Video</a
+                    ><i class="fa-sharp fa-solid fa-circle-play"></i> شاهد ال
+                    فيديو</a
                   >
                 </li>
               </ul>
@@ -224,10 +227,10 @@
         <div class="row">
           <div class="col-lg-9 m-auto">
             <div class="tf__section_heading mb_40">
-              <h5 class="has-animation">MY serivce</h5>
+              <h5 class="has-animation">خدمتي</h5>
               <h2 class="has-animation">
-                Crafting stories through <br />
-                design and innovation
+                صياغة القصص من خلال <br />
+                التصميم والابتكار
               </h2>
             </div>
           </div>
@@ -242,11 +245,11 @@
                   class="svg w-100"
                 />
               </span>
-              <h3>Website Design</h3>
+              <h3>تصميم الموقع</h3>
               <p>
-                Nemo design enim ipsam voluptatem quim voluptas sit aspernatur
-                aut odit auting fugit sed thisnquia consequuntur magni dolores
-                eos designer heresm qui
+                لأنه لا أحد يصمم المتعة نفسها، إلا إذا تم رفض المتعة نفسها أو
+                يكره الركوب فيهرب، ولكن هذه الأمور تترتب عليها آلام عظيمة أولئك
+                المصممين بدعة الذين
               </p>
             </div>
           </div>
@@ -259,11 +262,11 @@
                   class="svg w-100"
                 />
               </span>
-              <h3>Logo Design</h3>
+              <h3>تصميم شعار</h3>
               <p>
-                Nemo design enim ipsam voluptatem quim voluptas sit aspernatur
-                aut odit auting fugit sed thisnquia consequuntur magni dolores
-                eos designer heresm qui
+                لأنه لا أحد يصمم المتعة نفسها، إلا إذا تم رفض المتعة نفسها أو
+                يكره الركوب فيهرب، ولكن هذه الأمور تترتب عليها آلام عظيمة أولئك
+                المصممين بدعة الذين
               </p>
             </div>
           </div>
@@ -276,11 +279,11 @@
                   class="svg w-100"
                 />
               </span>
-              <h3>Apps Development</h3>
+              <h3>تطوير التطبيقات</h3>
               <p>
-                Nemo design enim ipsam voluptatem quim voluptas sit aspernatur
-                aut odit auting fugit sed thisnquia consequuntur magni dolores
-                eos designer heresm qui
+                لأنه لا أحد يصمم المتعة نفسها، إلا إذا تم رفض المتعة نفسها أو
+                يكره الركوب فيهرب، ولكن هذه الأمور تترتب عليها آلام عظيمة أولئك
+                المصممين بدعة الذين
               </p>
             </div>
           </div>
@@ -299,19 +302,18 @@
         <div class="row justify-content-between">
           <div class="col-xxl-7 col-lg-6 col-xl-6">
             <div class="tf__section_heading pb_80 xs_pb_50">
-              <h5 class="has-animation">About Me</h5>
-              <h2 class="has-animation">
-                Transforming visions into exceptional portfolios
-              </h2>
+              <h5 class="has-animation">ْعَنِّي</h5>
+              <h2 class="has-animation">تحويل الرؤى إلى محافظ استثنائية</h2>
             </div>
             <div class="tf__about_text">
               <p>
-                Nemo design enim ipsam voluptatem quim voluptas sit aspernatur
-                aut odit auting fugit sed thisnquia consequuntur magni dolores
-                eos designer heresm qui ratione
+                لأنه لا أحد يصمم المتعة نفسها، إلا إذا تم رفض المتعة نفسها أو
+                يكره الركوب فيهرب، ولكن هذه الأمور تترتب عليها آلام عظيمة أولئك
+                المصممين بدعة الذين ratione
               </p>
               <a class="common_btn" href="#"
-                >Download Cv <i class="fa-solid fa-arrow-down-to-line"></i
+                >تحميل السيرة الذاتية
+                <i class="fa-solid fa-arrow-down-to-line"></i
               ></a>
             </div>
           </div>
@@ -325,8 +327,8 @@
               <div class="tf__about_img_text">
                 <i class="fas fa-chart-pie-alt"></i>
                 <div class="tf__about_content">
-                  <h4>Daily Activity</h4>
-                  <p>Loream is ispam</p>
+                  <h4>النشاط اليومي</h4>
+                  <p>لوريم هو الإسلام</p>
                 </div>
               </div>
             </div>
@@ -346,13 +348,14 @@
         <div class="row">
           <div class="col-xl-6 col-lg-6">
             <div class="tf__design_text">
-              <h2>Design <span>and Innovation</span></h2>
+              <h2>تصميم <span>والابتكار</span></h2>
               <p class="">
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                auting fugit sed thisnquia consequuntur magni dolores eos
-                designer heresm qui ratione voluptatem sequi nesciuNeque porro
-                quisquam est, oursqui dolorem ipsum quia dolor sit amet
-                consectetur, adipisci velit, sed quia non numquam
+                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
+                الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن
+                استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو
+                (أي الأحرف) وكأنها نص مقروء.
               </p>
             </div>
             <div class="row">
@@ -369,7 +372,7 @@
                     />
                   </span>
                   <h3><span class="counter">10</span>k+</h3>
-                  <p>Complete project</p>
+                  <p>مشروع كامل</p>
                 </div>
               </div>
               <div class="col-xl-6 col-md-6">
@@ -385,24 +388,24 @@
                     />
                   </span>
                   <h3><span class="counter">800</span>+</h3>
-                  <p>Client review</p>
+                  <p>مراجعة العميل</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-xl-6 col-lg-6">
             <div class="tf__design_form">
-              <h2 class="has-animation">GET TOUCH ME?</h2>
+              <h2 class="has-animation">هل تلمسني؟</h2>
               <p class="">
-                For your car we will do everything advice design in us repairs
-                and maintenance We are the some preferred.
+                بالنسبة لسيارتك، سنفعل كل ما يتعلق بتصميم النصائح في إصلاحاتنا
+                والصيانة نحن البعض المفضل.
               </p>
               <form action="#">
                 <input class="" type="text" placeholder="Your Name" />
                 <input class="" type="email" placeholder="Your Email" />
                 <input class="" type="text" placeholder="Phone Number" />
                 <textarea class="" rows="4" placeholder="Message"></textarea>
-                <button type="submit" class="common_btn">submit now</button>
+                <button type="submit" class="common_btn">يقدم الآن</button>
               </form>
             </div>
           </div>
@@ -421,10 +424,10 @@
         <div class="row">
           <div class="col-xl-10 col-lg-8 m-auto mb_60">
             <div class="tf__section_heading mb_40">
-              <h5 class="has-animation">Education & Skill</h5>
+              <h5 class="has-animation">التعليم والمهارة</h5>
               <h2 class="has-animation">
-                Showcasing your talent <br />
-                amplifying your impact
+                إبراز موهبتك <br />
+                تضخيم تأثيرك
               </h2>
             </div>
           </div>
@@ -437,11 +440,12 @@
               data-stagger=".13"
             >
               <span>2014 - 2018</span>
-              <h3>Wordpress and End Developer</h3>
+              <h3>وورد والمطور النهائي</h3>
               <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit sed thisnquia consequuntur magni dolores eos qui
-                ratione voluptatem
+                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
+                الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما
               </p>
             </div>
           </div>
@@ -452,11 +456,12 @@
               data-stagger=".25"
             >
               <span>2012 - 2014</span>
-              <h3>Python Developer</h3>
+              <h3>مطور بايثون</h3>
               <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit sed thisnquia consequuntur magni dolores eos qui
-                ratione voluptatem
+                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
+                الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما
               </p>
             </div>
           </div>
@@ -467,11 +472,12 @@
               data-stagger=".25"
             >
               <span>2005 - 2009</span>
-              <h3>Kent State University</h3>
+              <h3>جامعة ولاية كينت</h3>
               <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit sed thisnquia consequuntur magni dolores eos qui
-                ratione voluptatem
+                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
+                الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما
               </p>
             </div>
           </div>
@@ -482,11 +488,12 @@
               data-stagger=".25"
             >
               <span>2009 - 2012</span>
-              <h3>User Experience Design</h3>
+              <h3>تصميم تجربة المستخدم</h3>
               <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit sed thisnquia consequuntur magni dolores eos qui
-                ratione voluptatem
+                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
+                الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما
               </p>
             </div>
           </div>
@@ -498,7 +505,7 @@
               data-trigerId="skills"
               data-stagger=".25"
             >
-              <p>HTML</p>
+              <p>لغة البرمجة</p>
               <div id="bar1" class="barfiller">
                 <div class="tipWrap">
                   <span class="tip"></span>
@@ -513,7 +520,7 @@
               data-trigerId="skills"
               data-stagger=".25"
             >
-              <p>Python</p>
+              <p>بايثون</p>
               <div id="bar2" class="barfiller">
                 <div class="tipWrap">
                   <span class="tip"></span>
@@ -528,7 +535,7 @@
               data-trigerId="skills"
               data-stagger=".25"
             >
-              <p>CSS</p>
+              <p>المغلق</p>
               <div id="bar3" class="barfiller">
                 <div class="tipWrap">
                   <span class="tip"></span>
@@ -543,7 +550,7 @@
               data-trigerId="skills"
               data-stagger=".25"
             >
-              <p>Photoshop</p>
+              <p>محل تصوير</p>
               <div id="bar4" class="barfiller">
                 <div class="tipWrap">
                   <span class="tip"></span>
@@ -558,7 +565,7 @@
               data-trigerId="skills"
               data-stagger=".25"
             >
-              <p>Java Script</p>
+              <p>جافا سكريبت</p>
               <div id="bar5" class="barfiller">
                 <div class="tipWrap">
                   <span class="tip"></span>
@@ -573,7 +580,7 @@
               data-trigerId="skills"
               data-stagger=".25"
             >
-              <p>Figma</p>
+              <p>فيجما</p>
               <div id="bar6" class="barfiller">
                 <div class="tipWrap">
                   <span class="tip"></span>
@@ -597,10 +604,10 @@
         <div class="row">
           <div class="col-xl-10 col-lg-9 mb_30">
             <div class="tf__section_heading">
-              <h5 class="has-animation">my recent Portfolio</h5>
+              <h5 class="has-animation">محفظتي الأخيرة</h5>
               <h2 class="has-animation">
-                Elevate your brand to new <br />
-                heights with our portfolio expertise
+                ارفع علامتك التجارية إلى مستوى جديد <br />
+                المرتفعات مع خبرتنا في محفظتنا
               </h2>
             </div>
           </div>
@@ -618,7 +625,7 @@
                 class="img-fluid w-100"
               />
               <div class="text">
-                <h4>sheet metal bending</h4>
+                <h4>ثني الصفائح المعدنية</h4>
                 <p>youtube</p>
               </div>
             </a>
@@ -635,7 +642,7 @@
                 class="img-fluid w-100"
               />
               <div class="text">
-                <h4>sheet metal bending</h4>
+                <h4>ثني الصفائح المعدنية</h4>
                 <p>Vimeo</p>
               </div>
             </a>
@@ -652,7 +659,7 @@
                 class="img-fluid w-100"
               />
               <div class="text">
-                <h4>sheet metal bending</h4>
+                <h4>ثني الصفائح المعدنية</h4>
                 <p>soundcloud</p>
               </div>
             </a>
@@ -669,7 +676,7 @@
                 class="img-fluid w-100"
               />
               <div class="text">
-                <h4>sheet metal bending</h4>
+                <h4>ثني الصفائح المعدنية</h4>
                 <p>Image</p>
               </div>
             </a>
@@ -689,12 +696,12 @@
         <div class="row">
           <div class="col-xl-8 m-auto mb_30">
             <div class="tf__section_heading">
-              <h5 class="has-animation">clients review</h5>
-              <h2 class="has-animation">My testomonial</h2>
+              <h5 class="has-animation">مراجعة العملاء</h5>
+              <h2 class="has-animation">شهادتي</h2>
             </div>
           </div>
         </div>
-        <div class="row testi_slider">
+        <div class="row testi_slider" dir="rtl">
           <div class="col-xl-6">
             <div class="tf__single_testimonial">
               <div class="img">
@@ -711,12 +718,12 @@
                 <i class="fa-solid fa-star-sharp"></i>
                 <i class="fa-solid fa-star-sharp"></i>
               </p>
-              <h3>Eleanor pena</h3>
-              <h5>Marketing Coordinator</h5>
+              <h3>إليانور بينا</h3>
+              <h5>منسق التسويق</h5>
               <p class="description">
-                Financial planners help people to knowledge in about how to
-                invest and in save their moneye the most efficient way eve plan
-                ners help people tioniio know ledige in about how.
+                يساعد المخططون الماليون الناس على المعرفة حول كيفية القيام بذلك
+                الاستثمار وتوفير أموالهم بالطريقة الأكثر فعالية للتخطيط يساعد
+                الأشخاص الأشخاص في معرفة كيفية القيام بذلك.
               </p>
             </div>
           </div>
@@ -736,12 +743,12 @@
                 <i class="fa-solid fa-star-sharp"></i>
                 <i class="fa-solid fa-star-sharp"></i>
               </p>
-              <h3>Eleanor pena</h3>
-              <h5>Marketing Coordinator</h5>
+              <h3>إليانور بينا</h3>
+              <h5>منسق التسويق</h5>
               <p class="description">
-                Financial planners help people to knowledge in about how to
-                invest and in save their moneye the most efficient way eve plan
-                ners help people tioniio know ledige in about how.
+                يساعد المخططون الماليون الناس على المعرفة حول كيفية القيام بذلك
+                الاستثمار وتوفير أموالهم بالطريقة الأكثر فعالية للتخطيط يساعد
+                الأشخاص الأشخاص في معرفة كيفية القيام بذلك.
               </p>
             </div>
           </div>
@@ -761,12 +768,12 @@
                 <i class="fa-solid fa-star-sharp"></i>
                 <i class="fa-solid fa-star-sharp"></i>
               </p>
-              <h3>Eleanor pena</h3>
-              <h5>Marketing Coordinator</h5>
+              <h3>إليانور بينا</h3>
+              <h5>منسق التسويق</h5>
               <p class="description">
-                Financial planners help people to knowledge in about how to
-                invest and in save their moneye the most efficient way eve plan
-                ners help people tioniio know ledige in about how.
+                يساعد المخططون الماليون الناس على المعرفة حول كيفية القيام بذلك
+                الاستثمار وتوفير أموالهم بالطريقة الأكثر فعالية للتخطيط يساعد
+                الأشخاص الأشخاص في معرفة كيفية القيام بذلك.
               </p>
             </div>
           </div>
@@ -781,19 +788,14 @@
         BRAND START
     =================================-->
     <div class="tf__brand mt_120 xs_mt_80">
-      <div class="row">
-        <div class="col-12">
-          <div class="marquee_animi">
-            <ul>
-              <li>* PHP</li>
-              <li>* Pyrhon</li>
-              <li>* design</li>
-              <li>* world</li>
-              <li>* Development</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <marquee
+        direction="right"
+        behavior="alternate"
+        scrollamount="5"
+        loop="infinite"
+        class="marquee_animi_rtl"
+        >* بي أتش بي * بايثون * تصميم * عالم * تطوير</marquee
+      >
     </div>
     <!--================================
         BRAND END
@@ -807,9 +809,9 @@
         <div class="row">
           <div class="col-xl-8 col-lg-9 mb_30">
             <div class="tf__section_heading">
-              <h5 class="has-animation">My blog</h5>
+              <h5 class="has-animation">مدونتي</h5>
               <h2 class="has-animation">
-                Unlocking the potential of your personal brand
+                إطلاق العنان لإمكانات علامتك التجارية الشخصية
               </h2>
             </div>
           </div>
@@ -829,18 +831,17 @@
                 />
               </a>
               <div class="tf__blog_text">
-                <span>31 December,2022</span>
+                <span>31 December 2022</span>
                 <ul>
                   <li>
-                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
+                    <i class="fa-sharp fa-solid fa-circle-user"></i> بواسطة
+                    المشرف
                   </li>
                   <li>
-                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
+                    <i class="fa-sharp fa-solid fa-comments"></i> التعليقات (05)
                   </li>
                 </ul>
-                <a href="blog_details.html"
-                  >The standard personal My portfolio</a
-                >
+                <a href="blog_details.html">محفظتي الشخصية القياسية</a>
               </div>
             </div>
           </div>
@@ -858,18 +859,17 @@
                 />
               </a>
               <div class="tf__blog_text">
-                <span>31 December,2022</span>
+                <span>31 December 2022</span>
                 <ul>
                   <li>
-                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
+                    <i class="fa-sharp fa-solid fa-circle-user"></i> بواسطة
+                    المشرف
                   </li>
                   <li>
-                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
+                    <i class="fa-sharp fa-solid fa-comments"></i> التعليقات (05)
                   </li>
                 </ul>
-                <a href="blog_details.html"
-                  >The standard personal My portfolio</a
-                >
+                <a href="blog_details.html">محفظتي الشخصية القياسية</a>
               </div>
             </div>
           </div>
@@ -887,18 +887,17 @@
                 />
               </a>
               <div class="tf__blog_text">
-                <span>31 December,2022</span>
+                <span>31 December 2022</span>
                 <ul>
                   <li>
-                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
+                    <i class="fa-sharp fa-solid fa-circle-user"></i> بواسطة
+                    المشرف
                   </li>
                   <li>
-                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
+                    <i class="fa-sharp fa-solid fa-comments"></i> التعليقات (05)
                   </li>
                 </ul>
-                <a href="blog_details.html"
-                  >The standard personal My portfolio</a
-                >
+                <a href="blog_details.html">محفظتي الشخصية القياسية</a>
               </div>
             </div>
           </div>
@@ -920,10 +919,12 @@
           <div class="row">
             <div class="col-xl-6 col-lg-8 col-md-10 m-auto">
               <div class="tf__subscribe_text">
-                <h3 class="has-animation">SUBSCRIBE MY NEWSLETTER</h3>
+                <h3 class="has-animation">
+                  اشترك في النشرة الإخبارية الخاصة بي
+                </h3>
                 <form action="#" class="">
                   <input type="text" placeholder="Enter Your Email" />
-                  <button type="submit" class="common_btn">Notify Now</button>
+                  <button type="submit" class="common_btn">أبلغ الآن</button>
                 </form>
               </div>
             </div>
@@ -959,8 +960,8 @@ SUBSCRIBE END
                     </div>
                   </div>
                   <div class="text">
-                    <h3>Address</h3>
-                    <p>2118 Thornridge Cir. Syracuse, Connecticut 35624</p>
+                    <h3>عنوان</h3>
+                    <p>2118 ثورنريدج سير. سيراكيوز، كونيتيكت 35624</p>
                   </div>
                 </div>
               </div>
@@ -980,7 +981,7 @@ SUBSCRIBE END
                     </div>
                   </div>
                   <div class="text">
-                    <h3>Lets talk us</h3>
+                    <h3>دعونا نتحدث معنا</h3>
                     <a href="callto:1234567890">(603) 555-0123</a>
                     <a href="callto:1234567890">(603) 555-0123</a>
                   </div>
@@ -1002,7 +1003,7 @@ SUBSCRIBE END
                     </div>
                   </div>
                   <div class="text">
-                    <h3>Send us email</h3>
+                    <h3>أرسل لنا البريد الإلكتروني</h3>
                     <a href="mailto:example@gmail.com"
                       >deanna.curtis@example.com</a
                     >
@@ -1014,20 +1015,20 @@ SUBSCRIBE END
             <div class="row">
               <div class="col-12">
                 <div class="tf__footer_copyright">
-                  <p>© CodeeFly 2023 | All Rights Reserved</p>
+                  <p>© CodeeFly 2023 | كل الحقوق محفوظة</p>
                   <ul>
                     <li>
                       <a href="#" class="text_hover_animaiton"
-                        >Trams & Condition</a
+                        >الترام والحالة</a
                       >
                     </li>
                     <li>
                       <a href="#" class="text_hover_animaiton"
-                        >Privacy Policy</a
+                        >سياسة الخصوصية</a
                       >
                     </li>
                     <li>
-                      <a href="#" class="text_hover_animaiton">Sitemap</a>
+                      <a href="#" class="text_hover_animaiton">خريطة الموقع</a>
                     </li>
                   </ul>
                 </div>

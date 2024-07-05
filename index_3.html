@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
 
-  <body>
+  <body class="home_3">
     <!--================================
         PRELOADER START
     =================================-->
@@ -50,8 +50,11 @@
           <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
           <i class="fa-regular fa-xmark close_icon"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav m-auto">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link text_hover_animaiton active" href="#"
                 >Home <i class="far fa-angle-down"></i
@@ -96,59 +99,10 @@
               </a>
             </li>
           </ul>
-          <span
-            class="toggle_icon c-pointer"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
-            ><i
-              class="fa-sharp fa-sharp fa-regular fa-bars bar_icon-staggered"
-            ></i
-          ></span>
         </div>
       </div>
     </nav>
 
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
-      <div class="offcanvas-header">
-        <a class="offcanvas-logo" href="index_2.html">
-          <img src="images/logo2.png" alt="ZAYAN" class="img-fluid w-100" />
-        </a>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        >
-          <i class="fa-regular fa-xmark"></i>
-        </button>
-      </div>
-      <div class="offcanvas-body">
-        <div class="tf__design_form offcanvas_form">
-          <div class="offcanvas-content-box">
-            <h4 class="offcanvas_title">About us</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-              tempor incididunt ut labore et magna aliqua. Ut enim ad minim
-              veniam laboris.
-            </p>
-          </div>
-          <div class="offcanvas_contact_form">
-            <h4 class="offcanvas_title">Get In Touch</h4>
-            <form action="#">
-              <input
-                type="text"
-                placeholder="Your Name"
-                aria-autocomplete="list"
-              />
-              <input type="email" placeholder="Your Email" />
-              <textarea rows="4" placeholder="Message"></textarea>
-              <button type="submit" class="common_btn">submit now</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
     <!--================================
         MENU END
     =================================-->
@@ -158,58 +112,36 @@
     =================================-->
     <section
       class="tf__banner banner"
-      style="background: url(images/bg/banner.jpg)"
+      style="
+        background: url(images/bg/banner.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-attachment: fixed;
+      "
     >
       <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-xl-6 col-lg-8">
-            <div class="tf__banner_text">
-              <h1>
-                Hi, I'm ZYAN! Creative
-                <span class="cd-headline rotate-1">
-                  <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
-                  <span class="cd-words-wrapper">
-                    <b class="is-visible">Designer</b>
-                    <b>Coder</b>
-                    <b>Player</b>
-                  </span>
-                </span>
-              </h1>
-              <p>
-                I'm a passionate UI/UX designer with a mission to create
-                delightful and intuitive digital experiences. With a strong
-                foundation in design principles and a keen eye for detail, I
-                specialize in translating complex ideas into user-friendly
-                interfaces that captivate and engage.
-              </p>
-              <ul>
-                <li>
-                  <a class="common_btn" href="#"
-                    >Download Cv <i class="fa-solid fa-arrow-down-to-line"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    class="banner_video_btn play_btn"
-                    href="https://www.youtube.com/watch?v=B-ytMSuwbf8"
-                    ><i class="fa-sharp fa-solid fa-circle-play"></i> Watch the
-                    Video</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-5 col-lg-4">
-            <div class="tf__banner_img">
-              <div class="img">
-                <img
-                  src="images/banner_img_1.png"
-                  alt="ZYAN"
-                  class="img-fluid w-100"
-                />
-              </div>
-            </div>
-          </div>
+        <div class="tf__banner_text text-center">
+          <h1>
+            Hello, I'm a<br />
+            <span class="cd-headline clip">
+              <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
+              <span class="cd-words-wrapper">
+                <b class="is-visible">Designer</b>
+                <b>developer</b>
+                <b>freelancer</b>
+              </span>
+            </span>
+          </h1>
+          <p>based in Los Angeles, California.</p>
+          <ul class="justify-content-center">
+            <li>
+              <a class="common_btn" href="#"
+                >Download Cv <i class="fa-solid fa-arrow-down-to-line"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
